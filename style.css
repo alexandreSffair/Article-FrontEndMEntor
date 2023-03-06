@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+body {
+  background-color: hsl(210deg, 46%, 95%);
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 0px 20px 0px 20px;
+}
+
+.main {
+  min-width: 305px;
+  max-width: 400px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.main picture {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+.main picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main .content {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 2.5rem 2.5rem 1rem 2.5rem;
+  color: hsl(217deg, 19%, 35%);
+  position: relative;
+}
+.main .content h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.main .content p {
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .main {
+    max-width: 960px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+  }
+  .main picture {
+    height: 100%;
+  }
+  .main .corpo {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main .corpo h1 {
+    font-size: 2rem;
+  }
+  .main .corpo p {
+    font-size: 1.2rem;
+  }
+}
+
+.social {
+  display: block;
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+  width: 100%;
+}
+.contact img {
+  width: 3rem;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.contact .contact-info {
+  margin-left: 1rem;
+}
+.contact .contact-info h2 {
+  color: hsl(217deg, 19%, 35%);
+  font-weight: 700;
+}
+.contact .contact-info p {
+  color: hsl(212deg, 23%, 69%);
+}
+.contact .send-contact {
+  background-color: hsl(210deg, 46%, 95%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .send-contact:hover {
+  background-color: hsl(212deg, 23%, 69%);
+}
+.contact .send-contact img {
+  width: 60%;
+}
+
+.list-social {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.list-social ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.list-social ul li {
+  display: block;
+  padding: 5px;
+  margin-left: 0.3rem;
+}
+.list-social ul li a p {
+  display: block;
+  color: hsl(212deg, 23%, 69%);
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  text-decoration: none;
+}
+.list-social ul li:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease-in-out;
+}
+.list-social .send {
+  background-color: hsl(210deg, 46%, 95%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-social .send:hover {
+  background-color: hsl(212deg, 23%, 69%);
+}
+
+.none {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
