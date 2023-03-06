@@ -1,6 +1,7 @@
 Frontend Mentor challenges - Article preview component
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+<p style="font-size: xx-small">
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.</p>
 
 
 <h1 align="center">
